@@ -69,6 +69,7 @@ textarea {
   transition: all 0.3s ease;
   line-height: 1.6;
   box-shadow: 0 3px 10px #328336;
+  overflow: hidden;
 }
 
 textarea:focus {
@@ -87,7 +88,6 @@ textarea.max-reached {
   border-color: #ff4444;
   background: rgba(0, 0, 0, 0.9);
   box-shadow: 0 3px 20px rgba(255, 41, 41, 0.9);
-  overflow: hidden;
 }
 
 .counter {
